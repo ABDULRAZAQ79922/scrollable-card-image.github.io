@@ -1,0 +1,51 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(img5.png);
+}
+
+.scrollableCardContainer {
+    width: 320px;
+    height: 480px;
+    border-radius: 15px;
+    overflow-y: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.scrollableCard {
+    padding: 20px;
+    text-align: center;
+}
+
+.scrollableCardImage {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: border-color 0.3s;
+}
+
+.scrollableCardImage.highlighted {
+    border: 3px solid #ff99cc;
+}
+
+.scrollableCardContent {
+    margin-top: 15px;
+}
+
+.scrollableCardTitle {
+    font-size: 1.5em;
+    color: #333333;
+}
+
+.scrollableCardDescription {
+    font-size: 1em;
+    color: #666666;
+    margin-top: 10px;
+}
